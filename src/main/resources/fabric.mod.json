@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "wowfarmyardfriends",
 	"version": "${version}",
-	"name": "WOW Farmyard Friends",
-	"description": "A bit of Whimsie, specifically the bit you'd find on a farm!",
+	"name": "World of Whimisie",
+	"description": "Adding just a bit of Whimsie to the minecraft world.",
 	"authors": [
 		"GatheringDustx"
 	],
