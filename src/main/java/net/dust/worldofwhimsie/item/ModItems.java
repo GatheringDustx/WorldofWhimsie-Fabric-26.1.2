@@ -13,6 +13,8 @@ import java.util.function.Function;
 
 public class ModItems {
     public static final Item CHEESE = registerItem("cheese", properties -> new Item(properties.food(ModFoods.CHEESE)));
+    public static final Item BEEFSTEW = registerItem("beefstew", properties -> new Item(properties.food(ModFoods.BEEFSTEW)));
+    public static final Item CAKESLICE = registerItem("cakeslice", properties -> new Item(properties.food(ModFoods.CAKESLICE)));
 
 
 

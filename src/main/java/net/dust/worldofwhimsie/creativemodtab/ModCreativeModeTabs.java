@@ -17,6 +17,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.worldofwhimsie.wow_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.CHEESE);
+                        output.accept(ModItems.BEEFSTEW);
+                        output.accept(ModItems.CAKESLICE);
 
                     }).build());
 

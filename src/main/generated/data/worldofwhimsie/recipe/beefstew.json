@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_beef",
+    "minecraft:baked_potato",
+    "minecraft:carrot",
+    [
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom"
+    ],
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldofwhimsie:beefstew"
+  }
+}

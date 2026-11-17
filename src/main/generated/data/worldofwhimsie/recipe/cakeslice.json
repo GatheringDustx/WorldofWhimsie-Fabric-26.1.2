@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cake",
+    "#minecraft:swords"
+  ],
+  "result": {
+    "count": 7,
+    "id": "worldofwhimsie:cakeslice"
+  }
+}
