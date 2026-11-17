@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "wowfarmyardfriends",
+	"id": "worldofwhimsie",
 	"version": "${version}",
 	"name": "World of Whimisie",
 	"description": "Adding just a bit of Whimsie to the minecraft world.",
@@ -12,18 +12,18 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/wowfarmyardfriends/icon.png",
+	"icon": "assets/worldofwhimsie/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.dust.wowfarmyardfriends.WOWFarmyardFriends"
+			"net.dust.worldofwhimsie.WorldofWhimsie"
 		],
 		"fabric-datagen": [
-			"net.dust.wowfarmyardfriends.WOWFarmyardFriendsDataGenerator"
+			"net.dust.worldofwhimsie.WorldofWhimsieDataGenerator"
 		]
 	},
 	"mixins": [
-		"wowfarmyardfriends.mixins.json"
+		"worldofwhimsie.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.20.1",

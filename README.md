@@ -1,4 +1,4 @@
-# WOW Farmyard Friends
+# World of Whimsie
 
 ## Setup
 
