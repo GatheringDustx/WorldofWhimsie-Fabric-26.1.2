@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": "worldofwhimsie:cakeslice"
+  },
+  "pattern": [
+    " C ",
+    "CCC",
+    "CCC"
+  ],
+  "result": {
+    "id": "minecraft:cake"
+  }
+}

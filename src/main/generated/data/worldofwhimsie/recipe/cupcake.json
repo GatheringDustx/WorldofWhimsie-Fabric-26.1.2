@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": "minecraft:egg",
+    "M": "minecraft:milk_bucket",
+    "S": "minecraft:sugar",
+    "W": "minecraft:wheat"
+  },
+  "pattern": [
+    " E ",
+    "WMW",
+    " S "
+  ],
+  "result": {
+    "count": 3,
+    "id": "worldofwhimsie:cupcake"
+  }
+}
