@@ -1,7 +1,11 @@
-// 26.1.2	-999999999-01-01T00:00:00	World of Whimisie/Model Definitions
+// 26.2	-999999999-01-01T00:00:00	World of Whimisie/Model Definitions
 9efbe22022de2dd89dc47d2304a2b85e192ebd94 assets/worldofwhimsie/items/beefstew.json
 e08fc3aa9e048bea7af05fe5a2d2c3fe8fde57b9 assets/worldofwhimsie/items/cakeslice.json
 b85d60036e736bc9d4dd1881b359605e6e3f9846 assets/worldofwhimsie/items/cheese.json
+00ce6d0f39bec3c9a55d428801a0976f84fc5a69 assets/worldofwhimsie/items/cupcake.json
+d17ebb998a8b1fc749b1f9b7e49fb0e041f38d7c assets/worldofwhimsie/items/quiche.json
 5800ba9d73ec9c34cb1e19737dd5bb87e80ebeb4 assets/worldofwhimsie/models/item/beefstew.json
 24704c2c51867905f20c609beabe41dd559fb5c5 assets/worldofwhimsie/models/item/cakeslice.json
 5ffb595bdbd5492d5668abe3bbeabdd36c9ea586 assets/worldofwhimsie/models/item/cheese.json
+46ad340e518fa523e0e9159a1f992d47a7cee464 assets/worldofwhimsie/models/item/cupcake.json
+84877b2ec17c7eb4198e17619594bb2cc1608427 assets/worldofwhimsie/models/item/quiche.json

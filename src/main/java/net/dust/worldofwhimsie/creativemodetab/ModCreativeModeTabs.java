@@ -16,9 +16,11 @@ public class ModCreativeModeTabs {
             FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CHEESE))
                     .title(Component.translatable("creativemodetab.worldofwhimsie.wow_items"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.CHEESE);
                         output.accept(ModItems.BEEFSTEW);
                         output.accept(ModItems.CAKESLICE);
+                        output.accept(ModItems.CHEESE);
+                        output.accept(ModItems.CUPCAKE);
+                        output.accept(ModItems.QUICHE);
 
                     }).build());
 

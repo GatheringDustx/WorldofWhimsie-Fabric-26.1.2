@@ -22,6 +22,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.CHEESE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.BEEFSTEW, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.CAKESLICE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.CUPCAKE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.QUICHE, ModelTemplates.FLAT_ITEM);
 
     }
 }

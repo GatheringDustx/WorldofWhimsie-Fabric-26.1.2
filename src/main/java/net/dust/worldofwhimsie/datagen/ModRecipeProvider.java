@@ -3,7 +3,6 @@ package net.dust.worldofwhimsie.datagen;
 import net.dust.worldofwhimsie.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.fabricmc.fabric.impl.datagen.TagAliasGenerator;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
@@ -47,6 +46,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .requires(ItemTags.SWORDS)
                         .unlockedBy(getHasName(Items.CAKE), has(Items.CAKE))
                         .save(output);
+
+                shaped(RecipeCategory.FOOD, Items.CAKE)
+                        .pattern(" C ")
+                        .pattern("CCC")
+                        .pattern("CCC")
+                        .define('C', ModItems.CAKESLICE)
+                        .unlockedBy(getHasName(ModItems.CAKESLICE), has(ModItems.CAKESLICE))
+                        .save(output);
+
+                shaped(RecipeCategory.FOOD, ModItems.CUPCAKE, 3)
+                        .pattern(" E ")
+                        .pattern("WMW")
+                        .pattern(" S ")
+                        .define('E', Items.EGG)
+                        .define('W', Items.WHEAT)
+                        .define('M', Items.MILK_BUCKET)
+                        .define('S', Items.SUGAR)
+                        .unlockedBy(getHasName(Items.EGG), has(Items.EGG))
+                        .save(output);
+
+                shaped(RecipeCategory.FOOD, ModItems.QUICHE)
+                        .pattern("EEE")
+                        .pattern("MCM")
+                        .define('E', Items.EGG)
+                        .define('C', ModItems.CHEESE)
+                        .define('M', Items.MILK_BUCKET)
+                        .unlockedBy(getHasName(Items.EGG), has(Items.EGG))
+                        .save(output);
+
             }
         };
     }

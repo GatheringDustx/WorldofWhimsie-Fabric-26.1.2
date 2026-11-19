@@ -1,7 +1,13 @@
-// 26.1.2	-999999999-01-01T00:00:00	World of Whimisie/WorldofWhimsie Recipes
+// 26.2	-999999999-01-01T00:00:00	World of Whimisie/WorldofWhimsie Recipes
 fd2e835ffad795fe0ad68401098412014895ee7e data/worldofwhimsie/advancement/recipes/food/beefstew.json
+aa1e38c80650bbd30873b06b37aa875fb2a025cc data/worldofwhimsie/advancement/recipes/food/cake.json
 e0d1f2ded510ae567dc824394436e559332b26ed data/worldofwhimsie/advancement/recipes/food/cakeslice.json
 bd5c5b75d6b64007131b6f97f55f5e90324757c5 data/worldofwhimsie/advancement/recipes/food/cheese.json
-9bb8b3ff27b3b4001a087c9648faa9aa716ec4ed data/worldofwhimsie/recipe/beefstew.json
-23ab9fd27049d6b6081dc0070d0731ec4fa0cc9c data/worldofwhimsie/recipe/cakeslice.json
-0cc5f2cdf23a1ebbfbbf6effcb634a12212164f6 data/worldofwhimsie/recipe/cheese.json
+ca8ff76d296b2b49f1b9d4b1c3cbaecc47f42006 data/worldofwhimsie/advancement/recipes/food/cupcake.json
+b6b3f3e419787c0b32226fda3909a4a8386f1354 data/worldofwhimsie/advancement/recipes/food/quiche.json
+a16eb4ecad0e4f160add6b41ac966064cc5d7f9d data/worldofwhimsie/recipe/beefstew.json
+2d10a659cff4971ba49c34e21af981a29b8fefc4 data/worldofwhimsie/recipe/cake.json
+6952acb71fb9983b9f6c65b9d95768b01f2572fa data/worldofwhimsie/recipe/cakeslice.json
+d7e0123d1948ca07390ce33cd3fcdab281be9c82 data/worldofwhimsie/recipe/cheese.json
+aededa4c60ffaa1e7de39d9d72ccd7b6fad99c55 data/worldofwhimsie/recipe/cupcake.json
+1a1fc0cdb68213ca9f7aff4cb06c4b0adf602ca5 data/worldofwhimsie/recipe/quiche.json
